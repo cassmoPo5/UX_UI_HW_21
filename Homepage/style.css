@@ -1,14 +1,14 @@
 
   body {
-    background: #3333;
-    font-family: "din-2014";
+    background-color: #49281a;
+    font-family: 'Span', sans-serif;
     font-weight: 800;
     text-align: center;
   }
   
   header {
-    background: #3333;
-    position: relative;
+    background-color: #49281a;
+    position: static;
     width: 100%;
   }
   
@@ -58,17 +58,14 @@
   nav a:hover::before {
     width: 100%;
   }
-  .section{
-    min-height: 250px;
+  .header{
+    margin: 50px;
+    font-size: 30px;
+    float: center;
+    text-align: center;
+    font-family: 'Span', sans-serif;
   }
-  section {
-    z-index: 1000;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-  }
- .container{
+ .container2{
     display:flex;
     justify-content:space-evenly;
     align-items:center;
@@ -82,7 +79,7 @@
     margin:50px;
     border-radius:15px;
     box-shadow:0px 0px 15px 0px #313131;
-    background-size:130%;
+    background-size:100%;
     background-repeat:no-repeat;
     background-position:top center;
     position:relative;
@@ -210,13 +207,38 @@
     width: 100%;
   }
   
-  @media screen and (max-width:50px){
-    .cards{
-      margin:15px 5px;
-      width:245px;
-      height:295px;
+  @media screen and (min-width: 491px) {  
+    header{
+    width: 100%;
     }
-    .bottom-bar{
-      height:46px;
+    
+    nav{
+    width: 100%;
     }
-  }
+      
+    .container2{ 
+    float: center;
+    width: 100%
+    }
+    .footer-distributed{
+    width: 100%;
+    }
+    
+    }
+    
+    @media screen and (max-width: 450px) {
+    header{
+    width: 90%;
+    }
+    
+    nav{
+    width: 90%;
+    }
+    
+    .container2{
+    width: 50%;
+    }
+    .footer-distributed{
+    width: 50%;
+    }
+    } 

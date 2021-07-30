@@ -1,12 +1,12 @@
 body {
-  background: #3333;
+  background-color: #49281a;
   font-family: 'Span', sans-serif;
   font-weight: 800;
   text-align: center;
 }
   
   header {
-  background: #3333;
+  background-color: #49281a;
   position: static;
   width: 100%;
 }
@@ -181,11 +181,11 @@ header::after {
   
   @media screen and (min-width: 491px) {  
     header{
-    width: 90%;
+    width: 100%;
     }
     
     nav{
-    width: 90%;
+    width: 100%;
     }
       
     .container2{ 

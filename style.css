@@ -58,9 +58,6 @@
   nav a:hover::before {
     width: 100%;
   }
-  .herocoffee{
-    height:80%
-  }
   .header{
     margin: 50px;
     font-size: 30px;

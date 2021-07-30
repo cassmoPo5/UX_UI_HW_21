@@ -201,14 +201,3 @@ section {
 .footer-distributed .footer-links a:hover::before {
   width: 100%;
 }
-
-@media screen and (max-width:50px){
-  .cards{
-    margin:15px 5px;
-    width:245px;
-    height:295px;
-  }
-  .bottom-bar{
-    height:46px;
-  }
-}
